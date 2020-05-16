@@ -1,7 +1,7 @@
-# ReadMe
+# Multivariate Time Series Forecasting
 
 ## Objective
-The aim of this project is to forecast multivariate time series stock market data using two different methodes: Standard Neural Network(NN) and Recurrent Neural Network Long Short-Term Memory (LSTM).
+The aim of this project is to forecast multivariate time series stock market data using two different methodes: multilayer perceptron neural network (NN) and Recurrent Neural Network Long Short-Term Memory (LSTM).
 
 ## Reading Data from Web
 The input files are Gold and MSFT data from year 2000 to 2020. Data are then stored to local csv files. An example of read data from the web and store into csv: 
@@ -47,7 +47,7 @@ sc = MinMaxScaler(feature_range=(0,1))
 training_scaled = sc.fit_transform(training)
 ```
 
-## Standard Neural Network with Keras
+## Multilayer Perceptron Neural Network with Keras
 
 ### Feature preparation 
 
